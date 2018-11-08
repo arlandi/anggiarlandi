@@ -4,7 +4,10 @@ import Layout from '../components/layout';
 
 const IndexPage = () => (
 	<Layout>
-		<h1>Hi people</h1>
+		<div className="main">
+			<h1>Anggi Arlandi Priatmadi</h1>
+      <div>Web developer and front end engineer. Based in NY.</div>
+		</div>
 	</Layout>
 );
 
