@@ -1,0 +1,41 @@
+.main {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+@media screen and (min-width:40em) {
+    .main {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:52em) {
+    .main {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width:40em) {
+    .main {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width:52em) {
+    .main {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+
+@media screen and (min-width:64em) {
+    .main {
+        padding-left: 128px;
+        padding-right: 128px;
+    }
+}
